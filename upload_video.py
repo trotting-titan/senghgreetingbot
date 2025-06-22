@@ -59,8 +59,8 @@ def post_video():
 # ✅ Post immediately when run
 post_video()
 
-# ⏰ Schedule it to run daily at 14:04 (optional)
-schedule.every().day.at("14:04").do(post_video)
+# ⏰ Schedule it to run daily at 16:10 (optional)
+schedule.every().day.at("16:10").do(post_video)
 
 print("⏳ Waiting for daily schedule...")
 
